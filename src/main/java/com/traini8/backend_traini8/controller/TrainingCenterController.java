@@ -43,6 +43,10 @@ public class TrainingCenterController {
 
         // Otherwise, apply filters
         List<TrainingCenter> centers = service.getFilteredTrainingCenters(city, state, course);
+        if (centers.isEmpty()) {
+            return ResponseEntity.noContent().build(); // 204 No Content
+        }
         return ResponseEntity.ok(centers);
+
     }
 }
