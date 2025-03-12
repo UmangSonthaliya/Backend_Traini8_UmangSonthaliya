@@ -32,6 +32,10 @@ It allows users to **register training centers** and **fetch registered centers*
 
 ---
 
+## 📹 Demo Video  
+[![Watch the Video](images/video_thumbnail.png)](https://www.loom.com/share/4b5bd2432f974578a0bebaab96c4d14c?sid=6f7c51c7-ad47-422e-a378-74b942ed5de6)
+
+
 ## ⚙️ Installation & Setup  
 
 ### **1️⃣ Clone the Repository** 
