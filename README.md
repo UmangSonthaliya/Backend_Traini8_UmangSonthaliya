@@ -32,7 +32,7 @@ It allows users to **register training centers** and **fetch registered centers*
 
 ---
 
-## 📹 Demo Video  
+## 📹 Demo Video  (Watch in 2x Speed)
 <a href="https://www.loom.com/share/4b5bd2432f974578a0bebaab96c4d14c?sid=6f7c51c7-ad47-422e-a378-74b942ed5de6" target="_blank">
     <img src="https://github.com/user-attachments/assets/e84ac74f-0d7b-4450-8001-ee1886c8eb4b" width="400" alt="Watch the Video">
 </a>
