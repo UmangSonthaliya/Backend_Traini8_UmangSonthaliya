@@ -62,6 +62,8 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 spring.jpa.show-sql=true
 ```
+### Database
+<img src="https://github.com/user-attachments/assets/b62ac73f-70e3-4a0f-b2d9-4d052277efed" alt="DB Screenshot" width="1200"/>
 
 ---
 
@@ -94,6 +96,8 @@ mvn spring-boot:run
   "contactPhone": "9876543210"
 }
 ```
+### API (POST BAD REQUEST)
+<img src="https://github.com/user-attachments/assets/6a1f1ddc-bb0b-416e-82a8-d8f3ac528772" alt="API Screenshot" width="800"/>
 
 📌 Validation Errors (400 Bad Request)
 
@@ -109,6 +113,8 @@ mvn spring-boot:run
 -**📌 Method: GET**
 -**📌 Query Parameters (Optional):**
 
+### API GET
+<img src="https://github.com/user-attachments/assets/34e49265-8467-4663-b621-ba217e052c62" alt="API Screenshot" width="800"/>
 
 ```sh
 GET /api/training-centers?city=Bangalore&course=Java
