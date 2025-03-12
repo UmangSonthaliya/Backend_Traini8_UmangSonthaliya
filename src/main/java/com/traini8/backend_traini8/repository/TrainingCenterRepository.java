@@ -19,7 +19,7 @@ public interface TrainingCenterRepository extends JpaRepository<TrainingCenter, 
 //    List<TrainingCenter> findByCoursesOfferedContaining(String course);
 
 
-//  |  --------for applying multiple filters at a time-------- |
+//   --------for applying multiple filters at a time--------
 @Query("SELECT t FROM TrainingCenter t WHERE " +
         "(:city IS NULL OR t.address.city = :city) AND " +
         "(:state IS NULL OR t.address.state = :state) AND " +

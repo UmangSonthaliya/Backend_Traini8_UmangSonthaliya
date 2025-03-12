@@ -7,13 +7,13 @@ import lombok.*;
 import java.time.Instant;
 import java.util.List;
 
-@Entity
+@Entity  //
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class TrainingCenter {
 
-    @Id
+    @Id   //this annotation is used to specify the primary key of an entity
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
@@ -25,15 +25,15 @@ public class TrainingCenter {
     @NotBlank
     private String centerCode;
 
-    @Embedded
+    @Embedded  //this annotation is used to specify that a class will be embedded by other entities
     private Address address;
 
     private Integer studentCapacity;
 
-    @ElementCollection
+    @ElementCollection      //this annotation is used to specify a collection of basic types
     private List<String> coursesOffered;
 
-    @Column(updatable = false)
+    @Column(updatable = false)    //this annotation is used to specify that a column will not be updated
     private Instant createdOn; //instant is used to store date and time
 
     @Email(message = "Invalid email format")

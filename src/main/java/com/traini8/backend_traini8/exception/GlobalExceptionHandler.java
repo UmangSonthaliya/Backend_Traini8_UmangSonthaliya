@@ -12,8 +12,8 @@ import java.util.Map;
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
-    @ExceptionHandler(ConstraintViolationException.class)
-    @ResponseStatus(HttpStatus.BAD_REQUEST)
+    @ExceptionHandler(ConstraintViolationException.class)// 400 Bad Request
+    @ResponseStatus(HttpStatus.BAD_REQUEST)  // 400 Bad Request
     public Map<String, Object> handleConstraintViolationException(ConstraintViolationException e) {
         Map<String, Object> response = new HashMap<>();
         response.put("status", HttpStatus.BAD_REQUEST.value());
@@ -21,8 +21,8 @@ public class GlobalExceptionHandler {
         response.put("error", e.getMessage());
         return response;
     }
-    @ExceptionHandler(Exception.class)
-    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+    @ExceptionHandler(Exception.class) // 500 Internal Server Error
+    @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR) // 500 Internal Server Error
     public Map<String, String> handleGeneralException(Exception e) {
         return Map.of("error", "An unexpected error occurred: " + e.getMessage());
     }

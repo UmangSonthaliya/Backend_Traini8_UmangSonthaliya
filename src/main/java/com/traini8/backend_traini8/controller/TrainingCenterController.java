@@ -31,6 +31,7 @@ public class TrainingCenterController {
 
     @GetMapping
     public ResponseEntity<List<TrainingCenter>> getTrainingCenters(
+            // Optional parameters for filtering and @requestParam to get the values
             @RequestParam Optional<String> city,
             @RequestParam Optional<String> state,
             @RequestParam Optional<String> course
