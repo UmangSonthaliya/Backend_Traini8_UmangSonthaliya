@@ -109,9 +109,10 @@ mvn spring-boot:run
 ---
 
 ## 2️⃣ Get Training Centers (GET)
--**📌 URL: /api/training-centers**
--**📌 Method: GET**
--**📌 Query Parameters (Optional):**
+
+- **📌 URL: /api/training-centers**
+- **📌 Method: GET**
+- **📌 Query Parameters (Optional):**
 
 ### API GET
 <img src="https://github.com/user-attachments/assets/34e49265-8467-4663-b621-ba217e052c62" alt="API Screenshot" width="800"/>
