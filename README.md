@@ -137,10 +137,10 @@ GET /api/training-centers?city=Bangalore&course=Java
 
 ---
 ## ❌ Error Handling
--**Error Type	HTTP Status	Example Message**
--**Validation Error	400 Bad Request	"Center code must be 12 characters."**
--**Not Found	404 Not Found	"Training center not found."**
--**Internal Error	500 Internal Server Error	"Unexpected error occurred."**
+- **Error Type	HTTP Status	Example Message**
+- **Validation Error	400 Bad Request	"Center code must be 12 characters."**
+- **Not Found	404 Not Found	"Training center not found."**
+- **Internal Error	500 Internal Server Error	"Unexpected error occurred."**
 
 
 
